@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.pre-header{
+}
+
+
+.fondo-banner{
+  background-color: rgba(128, 217, 255, 0.5);
+}
+
+.footer{
+  background-color: rgba(0, 0, 0,.8);
+}
+.footer-logo{
+  height: 52px;
+  width: 174px;
+}
+.footer p{
+  color: darkgray;
+}
+.footer hr{
+  color: greenyellow;
+}
+@media (max-width: 768px) {
+  .pre-header{
+    display: none;
+  }
+  .banner{
+    display: none;
+  }
+  .fondo-banner{
+   height: 234px;
+  }
+}

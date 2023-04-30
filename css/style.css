@@ -55,14 +55,21 @@ body {
 .div-section2 {
     padding-top: 150px;
 }
+
 /* Header NE */
 .header-ne {
     background-image: url('../recursos/BG-1header.svg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height:300px;
+    height: 300px;
 }
+
+/* SERVICIOS */
+
+
+
+
 /* Footer */
 
 .footer {
@@ -92,21 +99,24 @@ body {
     display: none;
 }
 
-.link-hov:hover{
+.link-hov:hover {
     background-color: #0d6efd;
 }
-.foto-ne{
+
+.foto-ne {
     height: 195px;
     width: 146px;
 }
-.nemesis{
+
+.nemesis {
     padding-top: 105px;
 }
 
-.card-border{
+.card-border {
     border-radius: 20px;
 }
-.historia-img-border{
+
+.historia-img-border {
     border: 2px solid dodgerblue;
 }
 
@@ -114,6 +124,7 @@ body {
     .div-footer {
         padding-top: 150px;
     }
+
     .h1-index {
         font-size: 40px;
         text-align: left;
@@ -144,9 +155,11 @@ body {
     .div-section2 {
         padding-top: 60px;
     }
+
     .header-ne {
-        height:480px;
+        height: 480px;
     }
+
     .header {
         height: 105vh;
     }

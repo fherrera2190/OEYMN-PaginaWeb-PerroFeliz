@@ -103,6 +103,13 @@ body {
     padding-top: 105px;
 }
 
+.card-border{
+    border-radius: 20px;
+}
+.historia-img-border{
+    border: 2px solid dodgerblue;
+}
+
 @media only screen and (max-width: 768px) {
     .div-footer {
         padding-top: 150px;

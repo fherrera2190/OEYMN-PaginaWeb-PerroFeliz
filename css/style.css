@@ -62,13 +62,30 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 300px;
+    height: 275px;
 }
 
 /* SERVICIOS */
 
+.h1-color {
+    font-size: 5rem;
+    color: #0d6efd;
+}
 
+.h2-color {
+    background-color: #0d6efd;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    width: 250px;
+}
 
+.img-servicio {
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+    border: 5px solid #7aa3e0;
+}
 
 /* Footer */
 
@@ -117,7 +134,8 @@ body {
 }
 
 .historia-img-border {
-    border: 2px solid dodgerblue;
+    border: 2px solid rgb(11, 34, 57);
+    background-color: #7aa3e0;
 }
 
 @media only screen and (max-width: 768px) {

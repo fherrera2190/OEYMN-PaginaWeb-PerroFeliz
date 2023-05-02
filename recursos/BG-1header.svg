@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg"
     xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="491" viewBox="0 0 1920 491">
     <defs>
-        <style>.a{fill:#fff;stroke:#707070;}.b{clip-path:url(#a);}.c{fill:#2841af;}.d{opacity:0.15;mix-blend-mode:multiply;isolation:isolate;fill:url(#b);}</style>
+        <style>.a{fill:#fff;stroke:#707070;}.b{clip-path:url(#a);}.c{fill:#102997;}.d{opacity:0.15;mix-blend-mode:multiply;isolation:isolate;fill:url(#b);}</style>
         <clipPath id="a">
             <rect class="a" width="100%" height="491"/>
         </clipPath>

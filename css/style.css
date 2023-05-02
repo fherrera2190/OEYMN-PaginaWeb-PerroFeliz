@@ -14,11 +14,15 @@ body {
 
 /* INDEX */
 .header {
+    background-color: #102997;
+}
+
+.banner {
     background-image: url('../recursos/bg-home-2.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 120vh;
+    height: 110vh;
 }
 
 .navbar-collapse {
@@ -31,7 +35,7 @@ body {
 }
 
 .h1-index {
-    font-size: 55px;
+    font-size: 5.5rem;
     text-align: left;
 }
 
@@ -49,7 +53,7 @@ body {
     background-image: url('../recursos/bg-1.svg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 90vh;
+    height: 120vh;
 }
 
 .div-section2 {
@@ -62,7 +66,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 275px;
+    height: 350px;
 }
 
 /* SERVICIOS */
@@ -73,6 +77,7 @@ body {
 }
 
 .h2-color {
+    margin: auto;
     background-color: #0d6efd;
     color: #fff;
     border-radius: 20px;
@@ -86,6 +91,10 @@ body {
     border-radius: 20px;
     border: 5px solid #7aa3e0;
 }
+
+
+/* Nuestro Equipo */
+.card-bground {}
 
 /* Footer */
 
@@ -135,7 +144,7 @@ body {
 
 .historia-img-border {
     border: 2px solid rgb(11, 34, 57);
-    background-color: #7aa3e0;
+    background-color: #fff;
 }
 
 @media only screen and (max-width: 768px) {
@@ -144,8 +153,13 @@ body {
     }
 
     .h1-index {
-        font-size: 40px;
-        text-align: left;
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .h1-color {
+        font-size: 3rem;
+        color: #0d6efd;
     }
 
     .img-banner {
@@ -178,7 +192,7 @@ body {
         height: 480px;
     }
 
-    .header {
-        height: 105vh;
+    .banner {
+        height: 60vh;
     }
 }

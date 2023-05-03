@@ -69,6 +69,11 @@ body {
     height: 350px;
 }
 
+/* Testimonios */
+.testimonio-border {
+    border: 2px solid grey;
+}
+
 /* SERVICIOS */
 
 .h1-color {
@@ -93,8 +98,20 @@ body {
 }
 
 
+.w-comentarios {
+    width: 25%;
+}
+
 /* Nuestro Equipo */
-.card-bground {}
+.img-size {
+    width: 200px;
+    height: 200px;
+    /* border: 1px solid grey; */
+}
+
+.card-borderpx {
+    border: 2px solid black;
+}
 
 /* Footer */
 
@@ -123,6 +140,11 @@ body {
 
 .slide-display2 {
     display: none;
+}
+
+.link-page-stay {
+    background-color: #0d6efd;
+    border-radius: 15px;
 }
 
 .link-hov:hover {

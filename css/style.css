@@ -47,6 +47,22 @@ body {
     height: 250px;
     width: 600px;
 }
+.img-coment{
+    height: 32px;
+    width: 32px;
+}
+.just-text{
+    text-align: justify;
+}
+.z-pf{
+    width: 7000px;
+}
+.probando{
+    width: 90%;
+}
+.probando2{
+   margin:auto;
+}
 
 /* Main */
 .bg-section2 {
@@ -54,6 +70,10 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 120vh;
+}
+.bg-sectionx {
+    background-image: url('../recursos/perro-contador.png');
+    background-repeat: no-repeat;
 }
 
 .div-section2 {
@@ -224,10 +244,13 @@ body {
     }
 
     .header-ne {
-        height: 480px;
+        height: 250px;
     }
 
     .banner {
         height: 60vh;
+    }
+    .z-pf{
+        width: none;
     }
 }

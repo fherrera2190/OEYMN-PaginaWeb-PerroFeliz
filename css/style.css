@@ -164,9 +164,22 @@ body {
     border-radius: 20px;
 }
 
+.img-mapa {
+    border-radius: 20px;
+    border: 2px solid gray
+}
+
 .historia-img-border {
     border: 2px solid rgb(11, 34, 57);
     background-color: #fff;
+}
+.form-opa{
+    opacity: 85%;
+}
+.fondo-form {
+    background-image: url('../recursos/fondo-form.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 @media only screen and (max-width: 768px) {

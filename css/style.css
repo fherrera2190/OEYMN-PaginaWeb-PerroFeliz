@@ -47,21 +47,26 @@ body {
     height: 250px;
     width: 600px;
 }
-.img-coment{
+
+.img-coment {
     height: 32px;
     width: 32px;
 }
-.just-text{
+
+.just-text {
     text-align: justify;
 }
-.z-pf{
+
+.z-pf {
     width: 7000px;
 }
-.probando{
+
+.probando {
     width: 90%;
 }
-.probando2{
-   margin:auto;
+
+.probando2 {
+    margin: auto;
 }
 
 /* Main */
@@ -71,6 +76,7 @@ body {
     background-size: cover;
     height: 120vh;
 }
+
 .bg-sectionx {
     background-image: url('../recursos/perro-contador.png');
     background-repeat: no-repeat;
@@ -108,6 +114,15 @@ body {
     border-radius: 20px;
     font-size: 1.5rem;
     width: 250px;
+}
+
+.text-huella {
+    margin: 0;
+    background-color: #0d6efd;
+    color: #fff;
+    border-radius: 20px 20px 0px 0px;
+    font-size: 1.5rem;
+    width: 80px;
 }
 
 .img-servicio {
@@ -193,9 +208,11 @@ body {
     border: 2px solid rgb(11, 34, 57);
     background-color: #fff;
 }
-.form-opa{
+
+.form-opa {
     opacity: 85%;
 }
+
 .fondo-form {
     background-image: url('../recursos/fondo-form.jpg');
     background-repeat: no-repeat;
@@ -250,7 +267,8 @@ body {
     .banner {
         height: 60vh;
     }
-    .z-pf{
+
+    .z-pf {
         width: none;
     }
 }

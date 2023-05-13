@@ -7,11 +7,6 @@
     font-family: 'Museo Sans Rounded', sans-serif;
 }
 
-body {
-    background-color: rgba(189, 192, 187, 0.685);
-
-}
-
 /* INDEX */
 .header {
     background-color: #102997;
@@ -57,24 +52,16 @@ body {
     text-align: justify;
 }
 
-.z-pf {
-    width: 7000px;
-}
-
-.probando {
-    width: 90%;
-}
-
-.probando2 {
-    margin: auto;
-}
-
 /* Main */
 .bg-section2 {
     background-image: url('../recursos/bg-1.svg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 120vh;
+}
+
+.margin-fix {
+    width: 60%;
 }
 
 .bg-sectionx {
@@ -141,7 +128,6 @@ body {
 .img-size {
     width: 200px;
     height: 200px;
-    /* border: 1px solid grey; */
 }
 
 .card-borderpx {
@@ -160,17 +146,13 @@ body {
     padding-top: 200px;
 }
 
-.logo-footer {
-    width: 175px;
-    height: 55px;
-}
-
 .hr-footer {
     color: white;
 }
 
 .p-footer {
-    width: 320px;
+    width: 310px;
+    margin: auto;
 }
 
 .slide-display2 {
@@ -191,8 +173,13 @@ body {
     width: 146px;
 }
 
-.nemesis {
-    padding-top: 105px;
+.qr-footer {
+    width: 100%;
+    padding: auto;
+}
+
+.footer-padding {
+    padding-top: 220px;
 }
 
 .card-border {
@@ -220,10 +207,6 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
-    .div-footer {
-        padding-top: 150px;
-    }
-
     .h1-index {
         font-size: 3rem;
         text-align: center;
@@ -267,8 +250,19 @@ body {
     .banner {
         height: 60vh;
     }
+    
+    .footer {
+        background-image: url('../recursos/footer.svg');
+        text-align: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 
-    .z-pf {
-        width: none;
+    .margin-fix {
+        width: 90%;
+    }
+
+    .footer-padding {
+        padding-top: 220px;
     }
 }

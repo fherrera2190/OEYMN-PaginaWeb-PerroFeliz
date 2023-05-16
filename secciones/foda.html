@@ -31,9 +31,17 @@
                         <li class="nav-item">
                             <a class="nav-link active text-white" aria-current="page" href="../index.html">Inicio</a>
                         </li>
-                        <li class="nav-item ">
-                            <a class="nav-link active text-white" aria-current="page"
-                                href="../secciones/servicios.html">Servicios</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white " href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Servicios
+                            </a>
+                            <ul class="dropdown-menu bg-secondary text-center">
+                                <li><a class="dropdown-item text-white link-hov"
+                                        href="../secciones/servicios.html">Veterinario</a></li>
+                                <li><a class="dropdown-item text-white link-hov"
+                                        href="../secciones/s-acicalamiento.html">Estética Canina</a></li>
+                            </ul>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-white " href="#" role="button"
@@ -50,24 +58,28 @@
                             </ul>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link active text-white link-page-stay" aria-current="page"
-                                href="../secciones/foda.html">FODA</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-white" href="#" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Indicadores
-                            </a>
-                            <ul class="dropdown-menu bg-secondary text-center">
-                                <li><a class="dropdown-item text-white link-hov"
-                                        href="../secciones/clientes.html">Clientes</a></li>
-                                <li><a class="dropdown-item text-white link-hov"
-                                        href="../secciones/procesos.html">Procesos</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item ">
                             <a class="nav-link active text-white" aria-current="page"
                                 href="./sucursales.html">Sucursales</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white" data-bs-auto-close="outside" href="#"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Académico
+                            </a>
+                            <ul class="dropdown-menu bg-secondary">
+                                <li><a class="dropdown-item link-hov text-white" href="../secciones/foda.html">FODA</a>
+                                </li>
+                                <a class="dropdown-item dropdown-toggle text-white link-hov " data-bs-toggle="dropdown"
+                                    href="#">Indicadores</a>
+                                <ul class="dropdown-menu bg-secondary">
+                                    <li><a href="../secciones/clientes.html"
+                                            class="dropdown-item link-hov text-white">Clientes</a>
+                                    </li>
+                                    <li><a href="../secciones/procesos.html"
+                                            class="dropdown-item link-hov text-white">Procesos</a>
+                                    </li>
+                                </ul>
+                            </ul>
                         </li>
                     </ul>
                 </div>
@@ -79,11 +91,15 @@
         <h1 class="h1-color text-center">FODA</h1>
         <div class="container bg-white card-border"><img class="img-fluid" src="../recursos/foda.png" alt="">
         </div>
+        <div class="cm-up" id="cm-up">
+            <img src="../recursos/flecha.svg" width="30px" height="30px" alt="">
+        </div>
     </main>
     <!-- Footer -->
     <footer class="footer">
         <div class="d-flex flex-column flex-lg-row justify-content-lg-around footer-padding">
-            <img class="logo mx-auto my-4 my-lg-0 mx-lg-0" src="../recursos/Logo-06.png" alt="">
+            <img class="mx-auto my-4 my-lg-0 mx-lg-0" width="220px" height="100px" src="../recursos/Logo-06.png"
+                alt="Logo-footer">
             <div class="">
                 <h5 class="text-white ">Contáctanos</h5>
                 <div class="text-white m-3">
@@ -113,26 +129,34 @@
             <div>
                 <h5 class="text-white my-3 my-md-0">Contacte con nosotros</h5>
                 <div class="d-flex justify-content-around my-4">
-                    <img src="../recursos/facebook.svg" alt="Logo-Facebook">
-                    <img src="../recursos/instagram.svg" alt="Logo-instagram">
-                    <img src="../recursos/in.svg" alt="Logo-LinkedIN">
-                    <img src="../recursos/tiktok.svg" alt="Logo-LinkedIN">
-                    <img src="../recursos/whatsapp.svg" alt="Logo-LinkedIN">
+                    <a href="#"><img src="../recursos/facebook.svg" alt="Logo-Facebook"></a>
+                    <a href="#"><img src="../recursos/instagram.svg" alt="Logo-instagram"></a>
+                    <a href="#"><img src="../recursos/in.svg" alt="Logo-LinkedIN"></a>
+                    <a href="#"><img src="../recursos/tiktok.svg" alt="Logo-LinkedIN"></a>
+                    <a href="#"><img src="../recursos/whatsapp.svg" alt="Logo-LinkedIN"></a>
                 </div>
+                <img src="../recursos/qr-code.svg" class="qr-footer" width="120px" height="120px" alt="QR-footer">
             </div>
         </div>
         <div>
             <hr class="hr-footer">
             <p class="text-white text-center m-0">
-                @2023 Club Atlético Palpalá
+                @2023 Club Atlético Palpalá. Página realizada con fines académicos de la F.I. - UNJu para la cátedra de
+                OEMN
             </p>
         </div>
     </footer>
+    <script>
+        new WOW().init();
+    </script>
+    <script src="../js/wow.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous"
         defer></script>
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/up.js"></script>
 </body>
 
 </html>

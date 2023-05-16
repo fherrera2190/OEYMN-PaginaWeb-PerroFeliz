@@ -1,10 +1,10 @@
-@import url('https://fonts.cdnfonts.com/css/museo-sans-rounded');
+@import url("https://fonts.cdnfonts.com/css/museo-sans-rounded");
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Museo Sans Rounded', sans-serif;
+    font-family: "Museo Sans Rounded", sans-serif;
 }
 
 /* INDEX */
@@ -13,15 +13,30 @@
 }
 
 .banner {
-    background-image: url('../recursos/bg-home-2.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 110vh;
+    height:90vh;
 }
 
 .navbar-collapse {
     flex-grow: 0 !important;
+}
+
+.dropdown-menu li {
+    position: relative;
+}
+
+.dropdown-menu .submenu {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: -7px;
+}
+.dropdown-menu>li:hover>.submenu {
+    display: block;
+}
+
+.dropdown-menu .submenu-left {
+    right: 100%;
+    left: auto;
 }
 
 .logo {
@@ -30,22 +45,8 @@
 }
 
 .h1-index {
-    font-size: 5.5rem;
+    font-size: 5rem;
     text-align: left;
-}
-
-.div-banner {
-    padding-top: 170px;
-}
-
-.img-banner {
-    height: 250px;
-    width: 600px;
-}
-
-.img-coment {
-    height: 32px;
-    width: 32px;
 }
 
 .just-text {
@@ -54,7 +55,7 @@
 
 /* Main */
 .bg-section2 {
-    background-image: url('../recursos/bg-1.svg');
+    background-image: url("../recursos/bg-1.svg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 120vh;
@@ -65,7 +66,7 @@
 }
 
 .bg-sectionx {
-    background-image: url('../recursos/perro-contador.png');
+    background-image: url("../recursos/perro-contador.png");
     background-repeat: no-repeat;
 }
 
@@ -75,16 +76,16 @@
 
 /* Header NE */
 .header-ne {
-    background-image: url('../recursos/BG-1header.svg');
+    background-image: url("../recursos/BG-1header.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 350px;
+    height: 400px;
 }
 
 /* Testimonios */
-.testimonio-border {
-    border: 2px solid grey;
+.testimonio-bg {
+    background-color: #bcd2f3;
 }
 
 /* SERVICIOS */
@@ -119,9 +120,17 @@
     border: 5px solid rgb(122, 163, 224);
 }
 
-
-.w-comentarios {
-    width: 25%;
+/*Flecha para hacer la pagina hacia arriba*/
+.cm-up {
+    display: none;
+    position: fixed;
+    background: #fff;
+    padding: 10px;
+    bottom: 80px;
+    right: 10px;
+    border: 0.5px solid black;
+    border-radius: 20px;
+    cursor: pointer;
 }
 
 /* Nuestro Equipo */
@@ -131,13 +140,13 @@
 }
 
 .card-borderpx {
-    border: 2px solid black;
+    border: 1px solid black;
 }
 
 /* Footer */
 
 .footer {
-    background-image: url('../recursos/footer.svg');
+    background-image: url("../recursos/footer.svg");
     color: rgb(40, 65, 175);
     min-height: 495px;
 }
@@ -168,11 +177,6 @@
     background-color: #0d6efd;
 }
 
-.foto-ne {
-    height: 195px;
-    width: 146px;
-}
-
 .qr-footer {
     width: 100%;
     padding: auto;
@@ -188,7 +192,7 @@
 
 .img-mapa {
     border-radius: 20px;
-    border: 2px solid gray
+    border: 2px solid gray;
 }
 
 .historia-img-border {
@@ -201,7 +205,7 @@
 }
 
 .fondo-form {
-    background-image: url('../recursos/fondo-form.jpg');
+    background-image: url("../recursos/fondo-form.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -211,19 +215,41 @@
         font-size: 3rem;
         text-align: center;
     }
+    .banner {
+        min-height:150vh;
+        text-align: center;
+    }
+    .banner-2{
+        height: 600px;
+    }
+
+    .bg-menu-responsive {
+        background-color: #102997;
+    }
 
     .h1-color {
         font-size: 3rem;
         color: #0d6efd;
     }
-
-    .img-banner {
-        height: 180px;
-        width: 100%;
+    .div24hs{
+        width: 200px;
+        height: 200px;
     }
-
     .div-banner {
         padding-top: 0px;
+    }
+
+    .dropdown-menu .submenu {
+        left: 25%;
+        top: 0px;
+    }
+
+    .dropdown-menu .multi-menu {
+        left: 95%;
+    }
+
+    .dropdown-menu .submenu-left {
+        left: 50%;
     }
 
     .slide-display {
@@ -250,9 +276,9 @@
     .banner {
         height: 60vh;
     }
-    
+
     .footer {
-        background-image: url('../recursos/footer.svg');
+        background-image: url("../recursos/footer.svg");
         text-align: center;
         background-repeat: no-repeat;
         background-size: cover;

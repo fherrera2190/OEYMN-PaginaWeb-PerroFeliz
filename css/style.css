@@ -23,6 +23,9 @@
 .nuestra-parte-section {
   height: 50vh;
 }
+.nuestra-parte-section2 {
+  min-height: 50vh;
+}
 
 .navbar-collapse {
   flex-grow: 0 !important;
@@ -102,6 +105,10 @@
   border-radius: 20px;
   border: 5px solid #7aa3e0;
 }
+.img-nuestra-parte {
+  border-radius: 20px;
+  border: 5px solid #7aa3e0;
+}
 
 /*Flecha para hacer la pagina hacia arriba*/
 .cm-up {
@@ -125,7 +132,7 @@
   background-color: rgba(255, 255, 255, 0.8);
   color: black;
   width: max-content;
-  margin:auto;
+  margin: auto;
 }
 
 /* Nuestro Equipo */
@@ -227,7 +234,11 @@
   .dropdown-menu .submenu-left {
     left: 50%;
   }
-
+  .img-sucursales {
+    width: 320px;
+    height: 200px;
+    margin: auto;
+  }
   .img-carousel {
     width: 200px;
     height: 200px;
@@ -243,7 +254,12 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
-
+  .nuestra-parte-section {
+    min-height: 80vh;
+  }
+  .nuestra-parte-section2 {
+    min-height: 100vh;
+  }
   .margin-fix {
     width: 90%;
   }

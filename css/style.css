@@ -65,7 +65,12 @@
 .testimonio-bg {
   background-color: #bcd2f3;
 }
-
+.testimonio-card {
+  height: 220px;
+}
+.testimonio-star {
+  width: 100px;
+}
 /* SERVICIOS */
 
 .h1-color {
@@ -109,6 +114,18 @@
   border: 0.5px solid black;
   border-radius: 20px;
   cursor: pointer;
+}
+/* Sucursales */
+.img-sucursales {
+  width: 800px;
+  height: 600px;
+  margin: auto;
+}
+.text-sucursales {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: black;
+  width: max-content;
+  margin:auto;
 }
 
 /* Nuestro Equipo */

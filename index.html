@@ -21,9 +21,18 @@
 <body>
     <!-- Header -->
     <header class="header">
+        <div class="d-flex justify-content-around bg-white pre-header align-items-center">
+            <div>Atención: 07.00 a 21.00Hs | <span class="text-danger">Servicios de Urgencia: 24Hs.</span></div>
+            <div class="d-flex align-items-center">
+                <img src="./recursos/globo-maps.png" class="mx-3" width="20px" height="25px" alt="">
+                <a href="./secciones/sucursales.html" class="nav-link active">Visita Nuestras <span
+                        class="text-primary">Sucursales</span> </a>
+            </div>
+        </div>
         <nav class="container navbar navbar-expand-md bg-opacity-100">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img class="logo" src="./recursos/Logo-06.png" alt="Logo"></a>
+                <a class="navbar-brand" href="./index.html"><img class="logo" src="./recursos/Logo-06.png"
+                        alt="Logo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -44,27 +53,12 @@
                                 <li><a class="dropdown-item text-white link-hov"
                                         href="./secciones/servicios.html">Veterinario</a></li>
                                 <li><a class="dropdown-item text-white link-hov"
-                                        href="./secciones/s-acicalamiento.html">Estética Canina</a></li>
+                                        href="./secciones/estetica-canina.html">Estética Canina</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-white" href="#" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Institucional
-                            </a>
-                            <ul class="dropdown-menu bg-secondary">
-                                <li><a class="dropdown-item text-white link-hov"
-                                        href="./secciones/historia.html">Identidad</a></li>
-                                <li><a class="dropdown-item text-white link-hov"
-                                        href="../secciones/tecnologia.html">Tecnología</a></li>
-                                <li><a class="dropdown-item text-white link-hov"
-                                        href="./secciones/nuestro-equipo.html">Nuestro
-                                        Equipo</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
+                        <li class="nav-item ">
                             <a class="nav-link active text-white" aria-current="page"
-                                href="./secciones/sucursales.html">Sucursales</a>
+                                href="./secciones/identidad.html">Identidad</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-white" data-bs-auto-close="outside" href="#"
@@ -72,25 +66,29 @@
                                 Académico
                             </a>
                             <ul class="dropdown-menu bg-secondary">
-                                <li><a class="dropdown-item link-hov text-white" href="./secciones/foda.html">FODA</a></li>
+                                <li><a class="dropdown-item link-hov text-white" href="./secciones/foda.html">FODA</a>
+                                </li>
                                 <a class="dropdown-item dropdown-toggle text-white link-hov " data-bs-toggle="dropdown"
                                     href="#">Indicadores</a>
                                 <ul class="dropdown-menu bg-secondary">
-                                    <li><a href="./secciones/clientes.html" class="dropdown-item link-hov text-white">Clientes</a>
+                                    <li><a href="./secciones/clientes.html"
+                                            class="dropdown-item link-hov text-white">Clientes</a>
                                     </li>
-                                    <li><a href="./secciones/procesos.html" class="dropdown-item link-hov text-white">Procesos</a>
+                                    <li><a href="./secciones/procesos.html"
+                                            class="dropdown-item link-hov text-white">Procesos</a>
                                     </li>
                                 </ul>
+                                <li><a class="dropdown-item text-white link-hov"
+                                        href="./secciones/nuestro-equipo.html">Nuestro
+                                        Equipo</a></li>
                             </ul>
                         </li>
+
                     </ul>
                 </div>
             </div>
         </nav>
-    </header>
-    <!-- Main -->
-    <main>
-        <div class="banner banner-2">
+        <div class="banner bg-white">
             <div id="carouselExampleIndicators" class="carousel slide">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
@@ -102,13 +100,13 @@
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="./recursos/Sliders-02.png" class="d-block w-100" alt="...">
+                        <img src="./recursos/sliders-1.jpg" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="./recursos/Sliders-01.png" class="d-block w-100" alt="...">
+                        <img src="./recursos/sliders-2.jpg" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="./recursos/Sliders-03.png" class="d-block w-100" alt="...">
+                        <img src="./recursos/sliders-3.jpg" class="d-block w-100" alt="...">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -122,252 +120,103 @@
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
-            <div class="row row-cols-12 row-cols-lg-6 align-items-center w-100 my-3 p-2 fs-6">
-                <img src="./recursos/24-horas.svg" class="div24hs m-auto" alt="">
-                <div>
-                    <div class="d-flex"><img src="./recursos/home.svg" alt="">
-                        Belgrano
-                    </div>
-                    <div class="just-text">
-                        Lunes a Viernes 9 a 14h - 17 a 19h
-                        Sábados 9 a 14h
-                    </div>
-                    <img src="./recursos/telefono2.svg" alt="">0388-4232895
-                    <div class="d-flex">
-                        <img src="./recursos/email2.svg" alt="">
-                        belgrano@perrofeliz.com
-                    </div>
-                </div>
-                <div>
-                    <div class="d-flex"><img src="./recursos/home.svg" alt="">
-                        Alto comedero
-                    </div>
-                    <div class="just-text">
-                        Lunes a Viernes 9 a 14h - 17 a 19h
-                        Sábados 9 a 14h
-                    </div>
-                    <img src="./recursos/telefono2.svg" alt="">0388-4232495
-                    <div class="d-flex">
-                        <img src="./recursos/email2.svg" alt="">
-                        comedero@perrofeliz.com
-                    </div>
-                </div>
-                <div>
-                    <div class="d-flex"><img src="./recursos/home.svg" alt="">
-                        Palpala
-                    </div>
-                    <div class="just-text">
-                        Lunes a Viernes 9 a 14h - 17 a 19h
-                        Sábados 9 a 14h
-                    </div>
-                    <img src="./recursos/telefono2.svg" alt="">+543885160335
-                    <div class="d-flex">
-                        <img src="./recursos/email2.svg" alt="">
-                        palpala@perrofeliz.com
-                    </div>
-                </div>
-                <div>
-                    <div class="d-flex"><img src="./recursos/home.svg" alt="">
-                        SEVILLA
-                    </div>
-                    <div class="just-text">
-                        Lunes a Viernes 9 a 14h - 17 a 19h
-                        Sábados 9 a 14h
-                    </div>
-                    <img src="./recursos/telefono2.svg" alt="">+543885160335
-                    <div class="d-flex">
-                        <img src="./recursos/email2.svg" alt="">
-                        sevilla@elperrofeliz.com
-                    </div>
-                </div>
-                <div>
-                    <div class="d-flex"><img src="./recursos/home.svg" alt="">
-                        SEVILLA
-                    </div>
-                    <div class="just-text">
-                        Lunes a Viernes 9 a 14h - 17 a 19h
-                        Sábados 9 a 14h
-                    </div>
-                    <img src="./recursos/telefono2.svg" alt="">+543885160335
-                    <div class="d-flex">
-                        <img src="./recursos/email2.svg" alt="">
-                        sevilla@elperrofeliz.com
-                    </div>
-                </div>
+            <div>
+                <h1 class="m-4 h2 text-center fs-1">ATENCIÓN MÉDICA DE CALIDAD</h1>
+                <P class="text-center">La Veterinaria Perro Feliz nace a partir de la necesidad de contar con un
+                    servicio eficiente y de asistencia las 24 horas los 7 días de la semana.</P>
             </div>
         </div>
-        <h2 class="h1-color text-center">Servicios</h2>
-        <section class="container text-center slide-display2">
-            <!-- <h2 class="h1-color mb-4">Nuestra Clínica</h2> -->
-            <div>
-                <div id="carouselExampleIndicators" class="carousel slide">
-                    <div class="carousel-indicators bg-black card-border opacity-50">
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                            class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                            aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                            aria-label="Slide 3"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
-                            aria-label="Slide 4"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
-                            aria-label="Slide 5"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
-                            aria-label="Slide 6"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6"
-                            aria-label="Slide 7"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7"
-                            aria-label="Slide 8"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8"
-                            aria-label="Slide 9"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="9"
-                            aria-label="Slide 10"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="10"
-                            aria-label="Slide 11"></button>
+    </header>
+    <!-- Main -->
+    <main>
+        <!-- <article class="container d-flex flex-column flex-lg-row justify-content-around  nuestra-parte-section">
+            <div class="w-100 ">
+                <h2 class="text-center text-reset">
+                    UNA VISIÓN QUE PARTE DE UNA MISIÓN
+                </h2>
+                <p class="text-center">
+                    Nuestra veterinaria fue creada con la <span class="text-primary">misión</span> de ofrecer un
+                    servicio de alta disponibilidad y
+                    eficiencia. Tenemos la <span class="text-primary">visión</span> de que nuestros servicios mejoren
+                    considerablemente los estándares
+                    establecidos y alcanzar la excelencia en pro del bienestar de nuestros pacientes caninos.
+                    Por eso, nuestra empresa está constituida por <span class="text-primary">valores</span> donde
+                    resaltamos el trabajo en equipo, la
+                    calidad, responsabilidad y profesionalismo al tratar con nuestros pacientes.
+                </p>
+                <img src="./recursos/friends.jpg" class="w-100" alt="">
+            </div>
+            <div class="mx-3"></div>
+            <div class="w-100">
+                <h2>¿QUE NOS DIFERENCIA?</h2>
+                <p>
+                    <img src="./recursos/check.svg" alt="">
+                    Contamos con veterinarios profesionales a disposición de tu mascota, en el momento que necesites.
+                </p>
+                <p>
+                    <img src="./recursos/check.svg" alt="">
+                    Disponemos de un ambiente preparado para que tu mascota se sienta como en casa.
+                </p>
+                <p>
+                    <img src="./recursos/check.svg" alt="">
+                    Contamos con diversos productos patentados para brindar una mejor experiencia al realizar nuestros
+                    servicios.
+                    Nuestras sucursales están ubicadas estratégicamente para que siempre tengas una cerca de tu casa.
+                </p>
+            </div>
+        </article> -->
+        <hr>
+        <article
+            class="container nuestra-parte-section d-flex flex-column flex-lg-row justify-content-around align-content-lg-center nuestra-parte-section">
+            <div class="w-100">
+                <h2 class="text-center text-reset">
+                    UNA VISIÓN QUE PARTE DE UNA MISIÓN
+                </h2>
+                <p class="text-center">
+                    Nuestra veterinaria fue creada con la <span class="text-primary">misión</span> de ofrecer un
+                    servicio de alta disponibilidad y
+                    eficiencia. Tenemos la <span class="text-primary">visión</span> de que nuestros servicios mejoren
+                    considerablemente los estándares
+                    establecidos y alcanzar la excelencia en pro del bienestar de nuestros pacientes caninos.
+                    Por eso, nuestra empresa está constituida por <span class="text-primary">valores</span> donde
+                    resaltamos el trabajo en equipo, la
+                    calidad, responsabilidad y profesionalismo al tratar con nuestros pacientes.
+                </p>
+            </div>
+            <img src="./recursos/friends.jpg" class="w-100" alt="">
+        </article>
+        <hr>
+        <article class="container">
+            <h2 class="text-center">¿QUE NOS DIFERENCIA?</h2>
+            <div class="w-100 row row-cols-3">
+                <div>
+                    <img src="./recursos/vacunacion.jpg" class="m-4 img-servicio" alt="">
+                    <div>
+                        <img src="./recursos/check.svg" alt="">
+                        Contamos con veterinarios profesionales a disposición de tu mascota, en el momento que
+                        necesites.
                     </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active my-5">
-                            <img class="img-carousel" src="./recursos/1.png" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item my-5">
-                            <img class="img-carousel" src="./recursos/2.png" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item my-5">
-                            <img class="img-carousel" src="./recursos/3.png" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item my-5">
-                            <img class="img-carousel" src="./recursos/4.png" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item my-5">
-                            <img class="img-carousel" src="./recursos/5.png" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item my-5">
-                            <img class="img-carousel" src="./recursos/6.png" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item my-5">
-                            <img class="img-carousel" src="./recursos/12.png" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item my-5">
-                            <img class="img-carousel" src="./recursos/8.png" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item my-5">
-                            <img class="img-carousel" src="./recursos/9.png" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item my-5">
-                            <img class="img-carousel" src="./recursos/10.png" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item my-5">
-                            <img class="img-carousel" src="./recursos/11.png" class="d-block w-100" alt="...">
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon bg-black card-border" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon bg-black card-border" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
                 </div>
-            </div>
-        </section>
-        <section class="container slide-display">
-            <!-- <h2 class="text-center m-5 h1-color">Nuestra Clínica</h2> -->
-            <div class="swiffy-slider slider-item-show5 slider-nav-mousedrag">
-                <ul class="slider-container">
-                    <li>
-                        <div id="slide1" class="m-5"><img src="./recursos/1.png" alt=""></div>
-                    </li>
-                    <li>
-                        <div id="slide2" class="m-5"><img src="./recursos/2.png" alt=""></div>
-                    </li>
-                    <li>
-                        <div id="slide3" class="m-5"><img src="./recursos/3.png" alt=""></div>
-                    </li>
-                    <li>
-                        <div id="slide4" class="m-5"> <img src="./recursos/4.png" alt=""></div>
-                    </li>
-                    <li>
-                        <div id="slide5" class="m-5"><img src="./recursos/5.png" alt=""></div>
-                    </li>
-                    <li>
-                        <div id="slide6" class="m-5"><img src="./recursos/6.png" alt=""></div>
-                    </li>
-                    <li>
-                        <div id="slide7" class="m-5"><img src="./recursos/12.png" alt=""></div>
-                    </li>
-                    <li>
-                        <div id="slide8" class="m-5"><img src="./recursos/8.png" alt=""></div>
-                    </li>
-                    <li>
-                        <div id="slide9" class="m-5"><img src="./recursos/9.png" alt=""></div>
-                    </li>
-                    <li>
-                        <div id="slide10" class="m-5"><img src="./recursos/10.png" alt=""></div>
-                    </li>
-                    <li>
-                        <div id="slide11" class="m-5"><img src="./recursos/11.png" alt=""></div>
-                    </li>
-                </ul>
-
-                <button type="button" class="slider-nav bg-black card-border opacity-50 h-25 my-auto"></button>
-                <button type="button"
-                    class="slider-nav slider-nav-next bg-black card-border opacity-50 h-25 my-auto"></button>
-
-                <ul class="slider-indicators bg-black card-border opacity-50">
-                    <li class="active"></li>
-                    <li></li>
-                    <li class=""></li>
-                    <li></li>
-                    <li class=""></li>
-                    <li></li>
-                    <li class=""></li>
-                    <li></li>
-                    <li class=""></li>
-                    <li></li>
-                    <li class=""></li>
-                    <li></li>
-                    <li class=""></li>
-                    <li></li>
-                    <li class=""></li>
-                    <li></li>
-                    <li class=""></li>
-                    <li></li>
-                    <li class=""></li>
-                    <li></li>
-                    <li class=""></li>
-                    <li></li>
-                    <li class=""></li>
-                </ul>
-            </div>
-        </section>
-        <section class="bg-sectionx">
-            <div class="bg-section2">
-                <div
-                    class="d-flex flex-column flex-md-row align-items-center justify-content-around slide-display div-section2">
-                    <div class="margin-fix bg-white opacity-75 card-border card-borderpx">
-                        <div class="p-4">
-                            <h2 class="h2-color text-center animate__animated animate__bounceInDown">Atención las 24hs
-                            </h2>
-                            <p class="text-center fs-5 animate__animated animate__bounceInLeft">Tanto
-                                nuestro
-                                establecimiento principal como las sucursales cuentan con los servicios para tu
-                                cachorro,
-                                desde cuidados básicos hasta cirugías complejas con o sin turno previo. Nuestras puertas
-                                están abiertas los siete días de la semana de 7:00 am a 9:00 pm. También tenemos un
-                                servicio
-                                de emergencia para después de esas horas.
-                            </p>
-                        </div>
+                <div>
+                    <img src="../recursos/vacunacion.jpg" class="m-4 img-servicio" alt="">
+                    <div>
+                        <img src="./recursos/check.svg" alt="">
+                        Disponemos de un ambiente preparado para que tu mascota se sienta como en casa.
+                    </div>
+                </div>
+                <div>
+                    <img src="../recursos/vacunacion.jpg" class="m-4 img-servicio" alt="">
+                    <div>
+                        <img src="./recursos/check.svg" alt="">
+                        Contamos con diversos productos patentados para brindar una mejor experiencia al realizar
+                        nuestros
+                        servicios.
+                        Nuestras sucursales están ubicadas estratégicamente para que siempre tengas una cerca de tu
+                        casa.
                     </div>
                 </div>
             </div>
-        </section>
-
-
-        <!-- Testimonial Start -->
+        </article>
         <div class="container-fluid testimonio-bg my-3 p-0 py-5">
             <h2 class="h1-color text-center">Testimonios</h2>
             <section class="">
@@ -491,7 +340,6 @@
                 </div>
             </div>
         </div>
-        <!-- Testimonial End -->
         <div class="cm-up" id="cm-up">
             <img src="./recursos/flecha.svg" width="30px" height="30px" alt="">
         </div>
@@ -554,8 +402,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous"
-        defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="./js/up.js"></script>
     <script src="./js/main.js"></script>

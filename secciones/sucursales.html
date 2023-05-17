@@ -16,9 +16,17 @@
 
 <body>
     <!-- Header -->
-    <header class="header-ne">
+    <header class="header">
+        <div class="d-flex justify-content-around bg-white pre-header align-items-center">
+            <div>Atención: 07.00 a 21.00Hs | <span class="text-danger">Servicios de Urgencia: 24Hs.</span></div>
+            <div class="d-flex align-items-center">
+                <img src="../recursos/globo-maps.png" class="mx-3" width="20px" height="25px" alt="">
+                <a href="../secciones/sucursales.html" class="nav-link active">Visita Nuestras <span
+                        class="text-primary">Sucursales</span> </a>
+            </div>
+        </div>
         <nav class="container navbar navbar-expand-md bg-opacity-100">
-            <div class="container-fluid text-center">
+            <div class="container-fluid">
                 <a class="navbar-brand" href="../index.html"><img class="logo" src="../recursos/Logo-06.png"
                         alt="Logo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -27,8 +35,8 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
+                    <ul class="navbar-nav text-center">
+                        <li class="nav-item ">
                             <a class="nav-link active text-white" aria-current="page" href="../index.html">Inicio</a>
                         </li>
                         <li class="nav-item dropdown">
@@ -40,26 +48,12 @@
                                 <li><a class="dropdown-item text-white link-hov"
                                         href="../secciones/servicios.html">Veterinario</a></li>
                                 <li><a class="dropdown-item text-white link-hov"
-                                        href="../secciones/s-acicalamiento.html">Estética Canina</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-white " href="#" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Institucional
-                            </a>
-                            <ul class="dropdown-menu bg-secondary text-center">
-                                <li><a class="dropdown-item text-white link-hov"
-                                        href="../secciones/historia.html">Identidad</a></li>
-                                <li><a class="dropdown-item text-white link-hov"
-                                        href="../secciones/tecnologia.html">Tecnología</a></li>
-                                <li><a class="dropdown-item text-white link-hov"
-                                        href="../secciones/nuestro-equipo.html">Nuestro Equipo</a></li>
+                                        href="../secciones/estetica-canina.html">Estética Canina</a></li>
                             </ul>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link active text-white link-page-stay" aria-current="page"
-                                href="./sucursales.html">Sucursales</a>
+                            <a class="nav-link active text-white" aria-current="page"
+                                href="../secciones/identidad.html">Identidad</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-white" data-bs-auto-close="outside" href="#"
@@ -79,8 +73,12 @@
                                             class="dropdown-item link-hov text-white">Procesos</a>
                                     </li>
                                 </ul>
+                                <li><a class="dropdown-item text-white link-hov"
+                                        href="../secciones/nuestro-equipo.html">Nuestro
+                                        Equipo</a></li>
                             </ul>
                         </li>
+
                     </ul>
                 </div>
             </div>
@@ -88,8 +86,8 @@
     </header>
     <!-- Main -->
     <main class="">
-        <div class="container">
-            <div>
+        <div class="">
+            <div class="container">
                 <h1 class="text-center h1-color">Nuestras Sucursales</h1>
                 <p class="just-text my-4">
                     Bienvenidos a Perro Feliz, la cadena de clínicas veterinarias que se preocupa por la salud y el
@@ -100,64 +98,70 @@
                 </p>
                 <img src="../recursos/mapa.png" class="img-fluid img-mapa bg-light shadow" alt="">
             </div>
-            <div class="row my-4">
-                <div class="col-12 col-md-6">
-                    <div id="carouselExample" class="carousel slide">
-                        <div class="carousel-inner card-border shadow">
-                            <div class="carousel-item active">
-                                <img src="../recursos/s1.jpg" class="img-fluid d-block w-100 card-border" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="../recursos/s2.jpg" class="img-fluid d-block w-100 card-border" alt=" ...">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="../recursos/s3.jpg" class="img-fluid d-block w-100 card-border" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                                <img c src="../recursos/s4.jpg" class="img-fluid d-block w-100 card-border" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="../recursos/s5.jpg" class="img-fluid d-block w-100 card-border" alt="...">
+            <hr>
+            <div class="container my-5">
+                <div id="carouselExample" class="carousel slide w-100">
+                    <div class="carousel-inner card-border">
+                        <div class="carousel-item d-flex justify-content-around active">
+                            <img src="../recursos/s1.jpg" class="img-fluid d-block w-100 card-border" alt="...">
+                            <div class="w-100">
+                                <h3 class="text-center">Sucursal: Belgrano</h3>
+                                <p class="">Direccion: Gral. Belgrano 847, Y4600 San Salvador de Jujuy, Jujuy</p>
+                                <p>Telefono: 0388-4232895</p>
                             </div>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
-                            data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon bg-black card-border" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
-                            data-bs-slide="next">
-                            <span class="carousel-control-next-icon bg-black card-border" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
+                        <div class="carousel-item d-flex justify-content-around">
+                            <img src="../recursos/s2.jpg" class="img-fluid d-block w-100 card-border" alt=" ...">
+                            <div class="w-100">
+                                <h3>Sucursal: Cordoba</h3>
+                                <p>Direccion: Av. Córdoba 1753, Y4600 San Salvador de Jujuy, Jujuy
+                                </p>
+                                <p>Telefono: 0388-4214677</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item d-flex justify-content-around">
+                            <img src="../recursos/s2.jpg" class="img-fluid d-block w-100 card-border" alt=" ...">
+                            <div class="w-100">
+                                <h3>Sucursal: Cordoba</h3>
+                                <p>Direccion: Av. Córdoba 1753, Y4600 San Salvador de Jujuy, Jujuy
+                                </p>
+                                <p>Telefono: 0388-4214677</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item d-flex justify-content-around">
+                            <img src="../recursos/s2.jpg" class="img-fluid d-block w-100 card-border" alt=" ...">
+                            <div class="w-100">
+                                <h3>Sucursal: Cordoba</h3>
+                                <p>Direccion: Av. Córdoba 1753, Y4600 San Salvador de Jujuy, Jujuy
+                                </p>
+                                <p>Telefono: 0388-4214677</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item d-flex justify-content-around">
+                            <img src="../recursos/s2.jpg" class="img-fluid d-block w-100 card-border" alt=" ...">
+                            <div class="w-100">
+                                <h3>Sucursal: Cordoba</h3>
+                                <p>Direccion: Av. Córdoba 1753, Y4600 San Salvador de Jujuy, Jujuy
+                                </p>
+                                <p>Telefono: 0388-4214677</p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-12 col-md-6">
-                    <div>
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14550.935148600069!2d-65.25008894999999!3d-24.251088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941b07aff8636feb%3A0xba4b227f70c82ebc!2sParque%20Belgrano!5e0!3m2!1ses!2sar!4v1682811562304!5m2!1ses!2sar"
-                            width="100%" height="250px" style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade" class="my-4 card-border shadow"></iframe>
-                    </div>
-                    <h3 class="text-center">Sucursal: Belgrano</h3>
-                    <p class="text-center">Direccion: Gral. Belgrano 847, Y4600 San Salvador de Jujuy, Jujuy
-                        Telefono: 0388-4232895
-                    </p>
-                    <h3 class="text-center">Servicios</h3>
-                    <div class="d-flex justify-content-around bg-white img-mapa">
-                        <img src="../recursos/icon1.svg" alt="">
-                        <img src="../recursos/icon2.svg" alt="">
-                        <img src="../recursos/icon3.svg" alt="">
-                        <img src="../recursos/icon4.svg" alt="">
-                        <img src="../recursos/icon9.svg" alt="">
-                        <img src="../recursos/icon6.svg" alt="">
-                        <img src="../recursos/icon7.svg" alt="">
-                        <img src="../recursos/icon8.svg" alt="">
-                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon bg-black card-border" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon bg-black card-border" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
             </div>
         </div>
 
+        <hr>
         <div class="container fondo-form card-border p-3 shadow">
             <h2 class="h2-color text-center mb-3">Contacto</h2>
             <form class="form-opa">
@@ -239,15 +243,9 @@
             </p>
         </div>
     </footer>
-    <script>
-        new WOW().init();
-    </script>
-    <script src="../js/wow.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous"
-        defer></script>
     <script src="../js/jquery-3.3.1.min.js"></script>
     <script src="../js/up.js"></script>
 </body>

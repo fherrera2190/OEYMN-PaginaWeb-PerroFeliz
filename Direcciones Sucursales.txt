@@ -1,0 +1,27 @@
+Sucursal: Belgrano
+--------
+Direccion: Gral. Belgrano 847, Y4600 San Salvador de Jujuy, Jujuy
+Telefono: 0388-4232895
+
+Sucursal: Cordoba
+--------
+Direccion: Av. Córdoba 1753, Y4600 San Salvador de Jujuy, Jujuy
+Telefono: 0388-4214677
+
+
+Sucursal: Exodo
+--------
+Direccion: Av. El Exodo 841, Y4600 San Salvador de Jujuy, Jujuy
+Telefono: 0388-4208409
+
+
+Sucursal: Pensamiento
+--------
+Direccion: El Pensamiento 930, Y4600 San Salvador de Jujuy, Jujuy
+Telefono: 0388-4263128
+
+
+Sucursal: Almirante Brown
+--------
+Direccion: Av. Almte. Brown 948, Y4600 San Salvador de Jujuy, Jujuy
+Telefono: 0388-4255597

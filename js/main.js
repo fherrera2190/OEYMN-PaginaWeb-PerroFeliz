@@ -50,3 +50,15 @@ function imprimirNumeros(a, b) {
     }
     mostrarSiguienteNumero(); // Llamar a la función por primera vez para comenzar a mostrar los números
 }
+
+
+$(document).ready(function () {
+    let carousel = document.getElementById("carouselExampleIndicators");
+    setInterval(function () {
+        // Mueve el carrusel a la siguiente imagen
+        let carouselInstance = bootstrap.Carousel.getInstance(carousel);
+        carouselInstance.next();
+    }, 4000); // Cambia la duración aquí (en milisegundos)
+});
+
+

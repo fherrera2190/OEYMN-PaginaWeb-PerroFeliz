@@ -14,14 +14,15 @@
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
-    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/imagehover.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
     <!-- Header -->
     <header class="header">
-        <div class="d-flex justify-content-around bg-white pre-header align-items-center p-3">
+        <div class="d-flex justify-content-around bg-white pre-header align-items-center">
             <div>Atención: 07.00 a 21.00Hs | <span class="text-danger">Servicios de Urgencia: 24Hs.</span></div>
             <div class="d-flex align-items-center">
                 <img src="./recursos/globo-maps.png" class="mx-3" width="20px" height="25px" alt="">
@@ -29,6 +30,7 @@
                         class="text-primary negrita-font">Sucursales</span> </a>
             </div>
         </div>
+        <!-- NAVBAR -->
         <nav class="container navbar navbar-expand-md bg-opacity-100">
             <div class="container-fluid">
                 <a class="navbar-brand" href="./index.html"><img class="logo" src="./recursos/Logo-06.png"
@@ -44,6 +46,10 @@
                             <a class="nav-link active text-white link-page-stay" aria-current="page"
                                 href="./index.html">Inicio</a>
                         </li>
+                        <li class="nav-item ">
+                            <a class="nav-link active text-white" aria-current="page"
+                                href="./secciones/identidad.html">Identidad</a>
+                        </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-white " href="#" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
@@ -56,10 +62,7 @@
                                         href="./secciones/estetica-canina.html">Estética Canina</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item ">
-                            <a class="nav-link active text-white" aria-current="page"
-                                href="./secciones/identidad.html">Identidad</a>
-                        </li>
+
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-white" data-bs-auto-close="outside" href="#"
                                 role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -88,6 +91,7 @@
                 </div>
             </div>
         </nav>
+        <!-- BANNER -->
         <div class="banner bg-white">
             <div id="carouselExampleIndicators" class="carousel slide">
                 <div class="carousel-indicators">
@@ -127,17 +131,15 @@
             </div>
         </div>
     </header>
-
     <!-- Main -->
     <main>
-        <hr>
         <article
-            class="container d-flex flex-column flex-lg-row justify-content-around align-content-lg-center nuestra-parte-section">
+            class="container d-flex flex-column flex-xl-row justify-content-around align-content-lg-center nuestra-parte-section  my-5">
             <div class="w-100">
-                <h2 class="text-center text-reset">
+                <h2 class="just-text text-reset">
                     UNA VISIÓN QUE PARTE DE UNA MISIÓN
                 </h2>
-                <p class="text-center fs-5">
+                <p class="just-text fs-5">
                     Nuestra veterinaria fue creada con la <span class="text-primary">misión</span> de ofrecer un
                     servicio de alta disponibilidad y
                     eficiencia. Tenemos la <span class="text-primary">visión</span> de que nuestros servicios mejoren
@@ -154,7 +156,7 @@
         <hr>
         <article class="container nuestra-parte-section2 ">
             <h2 class="text-center">¿QUÉ NOS DIFERENCIA?</h2>
-            <div class="w-100 row row-cols-1 row-cols-lg-3 text-center ">
+            <!-- <div class="w-100 row row-cols-1 row-cols-lg-3 text-center ">
                 <div>
                     <img src="./recursos/Equipo-Clinica-Veterinaria-Ejea-1-480x300.jpeg" class="m-4 img-servicio"
                         alt="">
@@ -182,23 +184,58 @@
                         casa.
                     </div>
                 </div>
+            </div> -->
+            <div class="w-100 row row-cols-1 row-cols-lg-3 text-center ">
+
+                <div class="demo pure-u-1 pure-u-sm-1-2 pure-u-md-1-3 pure-u-lg-1-4">
+                    <figure class="imghvr-flip-horiz"><img
+                            src="./recursos/Equipo-Clinica-Veterinaria-Ejea-1-480x300.jpeg" alt="example-image">
+                        <figcaption>
+                            <h3>Profesionalismo</h3>
+                            <p> Contamos con veterinarios profesionales a disposición de tu mascota, en el momento que
+                                necesites.!</p>
+                        </figcaption><a href="javascript:;"></a>
+                    </figure>
+                    <!-- <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-flip-horiz</textarea> -->
+                </div>
+                <div class="demo pure-u-1 pure-u-sm-1-2 pure-u-md-1-3 pure-u-lg-1-4">
+                    <figure class="imghvr-flip-vert"><img src="./recursos/descarga.jpg" alt="example-image">
+                        <figcaption>
+                            <h3>Instalaciones</h3>
+                            <p>Disponemos de un ambiente preparado para que tu mascota se sienta como en casa.</p>
+                        </figcaption><a href="javascript:;"></a>
+                    </figure>
+                    <!-- <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-flip-vert</textarea> -->
+                </div>
+                <div class="demo pure-u-1 pure-u-sm-1-2 pure-u-md-1-3 pure-u-lg-1-4">
+                    <figure class="imghvr-flip-diag-1"><img src="./recursos/t5.jpg" alt="example-image">
+                        <figcaption>
+                            <h3>Productos Patentados</h3>
+                            <p>Contamos con diversos productos patentados para brindar una mejor experiencia al realizar
+                                nuestros servicios.</p>
+                        </figcaption><a href="javascript:;"></a>
+                    </figure>
+                    <!-- <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-flip-diag-1</textarea> -->
+                </div>
             </div>
+
+
         </article>
-        <div class="container-fluid testimonio-bg my-3 p-0 py-5">
+        <article class="container-fluid testimonio-bg my-3 p-0 py-5">
             <h2 class="text-center">TESTIMONIOS</h2>
             <section class="">
                 <div class=" d-flex flex-column flex-md-row justify-content-around my-4">
                     <div class="text-center animate__animated animate__backInLeft ">
                         <img src="./recursos/Grupo-598.svg" alt="">
                         <div class="d-flex flex-column align-items-center">
-                            <p id="huella1" class="text-huella"> 2500 </p>
+                            <p id="huella1" class="text-huella"> 3000 </p>
                             <p class="h2-color">Pacientes Contentos</p>
                         </div>
                     </div>
                     <div class="text-center animate__animated animate__backInUp">
                         <img src="./recursos/Grupo-598.svg" alt="">
                         <div class="d-flex flex-column align-items-center">
-                            <p id="huella2" class="text-huella"> 3000 </p>
+                            <p id="huella2" class="text-huella"> 2500 </p>
                             <p class="h2-color">Cirugías exitosas</p>
                         </div>
                     </div>
@@ -319,7 +356,7 @@
 
                 </div>
             </div>
-        </div>
+        </article>
         <div class="cm-up" id="cm-up">
             <img src="./recursos/flecha.svg" width="30px" height="30px" alt="">
         </div>

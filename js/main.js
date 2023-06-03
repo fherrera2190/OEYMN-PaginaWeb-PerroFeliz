@@ -33,8 +33,8 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
-    imprimirNumeros(document.getElementById('huella1'), 2500);
-    imprimirNumeros(document.getElementById('huella2'), 3000);
+    imprimirNumeros(document.getElementById('huella1'), 3000);
+    imprimirNumeros(document.getElementById('huella2'), 2500);
 });
 
 function imprimirNumeros(a, b) {

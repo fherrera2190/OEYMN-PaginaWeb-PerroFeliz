@@ -10,21 +10,27 @@
 .pre-header {
   height: 7vh;
 }
+
 .header {
   background-color: #102997;
 }
+
 .banner {
   min-height: 78vh;
 }
+
 .negrita-font:hover {
   font-weight: bolder;
 }
-.textbanner{
+
+.textbanner {
   padding-top: 100px;
 }
+
 .nuestra-parte-section {
   height: 50vh;
 }
+
 .nuestra-parte-section2 {
   min-height: 50vh;
 }
@@ -43,7 +49,8 @@
   left: 100%;
   top: -7px;
 }
-.dropdown-menu > li:hover > .submenu {
+
+.dropdown-menu>li:hover>.submenu {
   display: block;
 }
 
@@ -70,12 +77,15 @@
 .testimonio-bg {
   background-color: #bcd2f3;
 }
+
 .testimonio-card {
   height: 220px;
 }
+
 .testimonio-star {
   width: 100px;
 }
+
 /* SERVICIOS */
 
 .h1-color {
@@ -102,11 +112,10 @@
 }
 
 .img-servicio {
-  height: 200px;
-  width: 300px;
   border-radius: 20px;
   border: 5px solid #7aa3e0;
 }
+
 .img-servicio2 {
   height: 280px;
   width: 420px;
@@ -131,12 +140,14 @@
   border-radius: 20px;
   cursor: pointer;
 }
+
 /* Sucursales */
 .img-sucursales {
   width: 800px;
   height: 600px;
   margin: auto;
 }
+
 .text-sucursales {
   background-color: rgba(255, 255, 255, 0.8);
   color: black;
@@ -222,10 +233,15 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .pre-header {
+    height: 100%;
+  }
+
   .h1-index {
     font-size: 3rem;
     text-align: center;
   }
+
   .h1-color {
     font-size: 3rem;
     color: #0d6efd;
@@ -238,6 +254,7 @@
     border-radius: 20px;
     font-size: 1.5rem;
   }
+
   .dropdown-menu .submenu {
     left: 25%;
     top: 0px;
@@ -250,11 +267,13 @@
   .dropdown-menu .submenu-left {
     left: 50%;
   }
+
   .img-sucursales {
     width: 320px;
     height: 200px;
     margin: auto;
   }
+
   .img-carousel {
     width: 200px;
     height: 200px;
@@ -270,12 +289,15 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+
   .nuestra-parte-section {
     min-height: 80vh;
   }
+
   .nuestra-parte-section2 {
     min-height: 100vh;
   }
+
   .margin-fix {
     width: 90%;
   }

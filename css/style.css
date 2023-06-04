@@ -12,19 +12,35 @@
 }
 
 .header {
-  background-color: #102997;
+  background-color: #162a6f;
 }
 
 .banner {
   min-height: 78vh;
 }
-
+.fuerte {
+  height: 20px !important;
+  width: 20px !important;
+  color: #fff;
+}
+.fuerte {
+  height: 20px !important;
+  width: 20px !important;
+  color: #fff;
+}
+.fuerte2 {
+  text-align: left;
+}
+.boton-reservar {
+  text-align: center;
+ width:max-content!important;
+}
 .negrita-font:hover {
   font-weight: bolder;
 }
 
 .textbanner {
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
 .nuestra-parte-section {
@@ -32,7 +48,7 @@
 }
 
 .nuestra-parte-section2 {
-  min-height: 50vh;
+  min-height: 40vh;
 }
 
 .navbar-collapse {
@@ -50,7 +66,7 @@
   top: -7px;
 }
 
-.dropdown-menu>li:hover>.submenu {
+.dropdown-menu > li:hover > .submenu {
   display: block;
 }
 

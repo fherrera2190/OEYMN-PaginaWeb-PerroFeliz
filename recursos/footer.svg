@@ -2,7 +2,7 @@
     height="592" viewBox="0 0 1920 592">
     <defs>
         <style>
-            .a{fill:#fff;stroke:#707070;}.b{clip-path:url(#a);}.c{fill:#102997;}.d{fill:#b8b8b8;opacity:0.05;}</style>
+            .a{fill:#fff;stroke:#707070;}.b{clip-path:url(#a);}.c{fill:#162a6f;}.d{fill:#b8b8b8;opacity:0.05;}</style>
         <clipPath id="a">
             <rect class="a" width="1920" height="592" transform="translate(0 5828)"></rect>
         </clipPath>

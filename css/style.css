@@ -43,8 +43,8 @@
   padding-top: 50px;
 }
 
-.nuestra-parte-section {
-  height: 50vh;
+.nuestra-parte-img {
+  height: 500px;
 }
 
 .nuestra-parte-section2 {
@@ -91,7 +91,7 @@
 
 /* Testimonios */
 .testimonio-bg {
-  background-color:#EFF5FF ;
+  background-color:#bad3fc  ;
 }
 
 .testimonio-card {
@@ -239,7 +239,7 @@
 }
 
 .bg-custom-light {
-  background-color:#EFF5FF ;
+  background-color:#bad3fc ;
 }
 
 .fondo-form {
@@ -306,12 +306,10 @@
     background-size: cover;
   }
 
-  .nuestra-parte-section {
-    min-height: 80vh;
-  }
-
-  .nuestra-parte-section2 {
-    min-height: 100vh;
+  .nuestra-parte-img {
+    height: 220px;
+    width: 90%;
+    margin:auto
   }
 
   .margin-fix {

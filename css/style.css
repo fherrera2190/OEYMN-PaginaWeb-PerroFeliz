@@ -33,7 +33,7 @@
 }
 .boton-reservar {
   text-align: center;
- width:max-content!important;
+  width: max-content !important;
 }
 .negrita-font:hover {
   font-weight: bolder;
@@ -91,7 +91,7 @@
 
 /* Testimonios */
 .testimonio-bg {
-  background-color: #bcd2f3;
+  background-color:#EFF5FF ;
 }
 
 .testimonio-card {
@@ -148,7 +148,7 @@
 .cm-up {
   display: none;
   position: fixed;
-  background: #fff;
+  background: #EFF5FF;
   padding: 10px;
   bottom: 80px;
   right: 10px;
@@ -238,8 +238,8 @@
   background-color: #fff;
 }
 
-.form-opa {
-  opacity: 90%;
+.bg-custom-light {
+  background-color:#EFF5FF ;
 }
 
 .fondo-form {
@@ -320,5 +320,15 @@
 
   .footer-padding {
     padding-top: 220px;
+  }
+
+  .ih-item.circle {
+    width: 320px;
+    height: 320px;
+  }
+
+  .ih-item.circle .img {
+    width: 320px;
+    height: 320px;
   }
 }

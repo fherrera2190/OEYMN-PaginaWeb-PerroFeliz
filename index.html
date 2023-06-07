@@ -6,16 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Club Atlético Palpala</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="icon" href="./recursos/logo-pestaña.ico" />
-    <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet"
-        crossorigin="anonymous">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <!-- Customized Bootstrap Stylesheet -->
+    <!-- <link rel="stylesheet" href="./css/nuestro-equipo.css"> -->
     <link rel="stylesheet" href="./css/imagehover.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -128,20 +128,17 @@
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
-            <div class="container d-flex flex-column flex-lg-rowalign-items-center justify-content-around">
+            <div class="container-fluid d-flex flex-column mt-5">
                 <div class="textbanner">
-                    <h1 class="h2 text-center fs-1">ATENCIÓN MÉDICA DE CALIDAD</h1>
-                    <P class="text-center fs-5">
+                    <h1 class="h2 text-center fs-2">ATENCIÓN MÉDICA DE CALIDAD</h1>
+                    <P class="text-center fs-4">
                         La Veterinaria Perro Feliz nace a partir de la necesidad de contar con un
                         servicio eficiente y de asistencia las 24 horas los 7 días de la semana.
                     </P>
                 </div>
-                <div class="container">
-                    <div class="d-flex justify-content-center animate__animated animate__backInLeft wow fadeInUp"
-                        data-wow-delay="0.5s">
-                        <a class="btn btn-success boton-reservar fs-1" href="./secciones/sucursales.html#turnos"
-                            role="button">RESERVAR TURNO</a>
-                    </div>
+                <div class="d-flex justify-content-center animate__animated animate__backInLeft wow fadeInUp" data-wow-delay="0.5s">
+                    <a class="btn btn-success boton-reservar fs-2" href="./secciones/sucursales.html#turnos"
+                        role="button">RESERVAR TURNO</a>
                 </div>
             </div>
         </div>
@@ -149,8 +146,10 @@
     </header>
     <!-- Main -->
     <main>
+
         <!-- SECCION QUE NOS DIFERENCIA -->
         <article class="container mt-5">
+            <hr>
             <div class="border-start border-5 border-primary ps-5 mb-5">
                 <h1 class="display-5 text-uppercase mb-0">¿Qué nos diferencia?</h1>
             </div>
@@ -164,7 +163,6 @@
                         </figcaption><a href="javascript:;"></a>
                     </figure>
                     <h4>Profesionalismo</h4>
-                    <!-- <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-flip-horiz</textarea> -->
                 </div>
                 <div class=" p-3">
                     <figure class="imghvr-flip-horiz"><img src="../recursos/instalaciones.jpg" height="350px"
@@ -179,20 +177,17 @@
                         </figcaption><a href="javascript:;"></a>
                     </figure>
                     <h4>Instalaciones</h4>
-                    <!-- <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-flip-vert</textarea> -->
                 </div>
                 <div class="p-3">
                     <figure class="imghvr-flip-horiz"><img src="../recursos/productosp.jpg" height="350px"
                             alt="example-image">
                         <figcaption>
-
                             <p class="fs-4">Contamos con diversos productos patentados para brindar una mejor
                                 experiencia al realizar
                                 nuestros servicios y optimizar los resultados.</p>
                         </figcaption><a href="javascript:;"></a>
                     </figure>
                     <h4>Productos Patentados</h4>
-                    <!-- <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-flip-diag-1</textarea> -->
                 </div>
                 <div class=" p-3">
                     <figure class="imghvr-flip-horiz"><img src="../recursos/protectora.jpg" height="350px"
@@ -203,7 +198,6 @@
                         </figcaption><a href="javascript:;"></a>
                     </figure>
                     <h4>Convenio con protectoras</h4>
-                    <!-- <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-flip-horiz</textarea> -->
                 </div>
                 <div class="p-3">
                     <figure class="imghvr-flip-horiz"><img src="./recursos/exercise-with-your-dog.jpg" height="350px"
@@ -217,7 +211,6 @@
                         </figcaption><a href="javascript:;"></a>
                     </figure>
                     <h4>Programas de bienestar integral</h4>
-                    <!-- <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-flip-diag-1</textarea> -->
                 </div>
                 <div class=" p-3">
                     <figure class="imghvr-flip-horiz"><img src="./recursos/transporte.jpg" height="350px"
@@ -229,12 +222,12 @@
                         </figcaption><a href="javascript:;"></a>
                     </figure>
                     <h4>Transporte canino</h4>
-                    <!-- <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-flip-horiz</textarea> -->
                 </div>
             </div>
+            <hr>
         </article>
         <!-- Products Start -->
-        <div class="container-fluid py-5">
+        <article id="productos" class="container py-5">
             <div class="container">
                 <div class="border-start border-5 border-primary ps-5 mb-5" style="max-width: 600px;">
                     <h6 class="text-primary text-uppercase">Productos</h6>
@@ -243,105 +236,140 @@
                 <div class="owl-carousel product-carousel">
                     <div class="pb-5">
                         <div class="product-item position-relative bg-light d-flex flex-column text-center">
-                            <img class="img-fluid mb-4" src="./recursos/ali1.jpg" width="300px" height="300px" alt="">
-                            <h6 class="text-uppercase">Quality Pet Foods</h6>
-                            <h5 class="text-primary mb-0">$19900.00</h5>
+                            <img class="img-fluid mb-4" src="./recursos/ali2.jpg" alt="">
+                            <h5 class="text-primary mb-0">$3000.00</h5>
                             <div class="btn-action d-flex justify-content-center">
-                                <a class="btn btn-primary py-2 px-3" href=""><i class="bi bi-cart"></i></a>
-                                <a class="btn btn-primary py-2 px-3" href=""><i class="bi bi-eye"></i></a>
+                                <a class="btn btn-primary py-2 px-3" href="#productos"><i class="bi bi-cart"></i></a>
+                                <a class="btn btn-primary py-2 px-3" href="#productos"><i class="bi bi-eye"></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="pb-5">
                         <div class="product-item position-relative bg-light d-flex flex-column text-center">
-                            <img class="img-fluid mb-4" src="./recursos/ali2.jpg" width="300px" height="300px" alt="">
-                            <h6 class="text-uppercase">Quality Pet Foods</h6>
-                            <h5 class="text-primary mb-0">$19900.00</h5>
+                            <img class="img-fluid mb-4" src="./recursos/ali3.jpg" alt="">
+                            <h5 class="text-primary mb-0">$2700.00</h5>
                             <div class="btn-action d-flex justify-content-center">
-                                <a class="btn btn-primary py-2 px-3" href=""><i class="bi bi-cart"></i></a>
-                                <a class="btn btn-primary py-2 px-3" href=""><i class="bi bi-eye"></i></a>
+                                <a class="btn btn-primary py-2 px-3" href="#productos"><i class="bi bi-cart"></i></a>
+                                <a class="btn btn-primary py-2 px-3" href="#productos"><i class="bi bi-eye"></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="pb-5">
                         <div class="product-item position-relative bg-light d-flex flex-column text-center">
-                            <img class="img-fluid mb-4" src="./recursos/ali3.jpg" width="300px" height="300px" alt="">
-                            <h6 class="text-uppercase">Quality Pet Foods</h6>
-                            <h5 class="text-primary mb-0">$19900.00</h5>
+                            <img class="img-fluid mb-4" src="./recursos/ali4.jpg" alt="">
+                            <h5 class="text-primary mb-0">$5500.00</h5>
                             <div class="btn-action d-flex justify-content-center">
-                                <a class="btn btn-primary py-2 px-3" href=""><i class="bi bi-cart"></i></a>
-                                <a class="btn btn-primary py-2 px-3" href=""><i class="bi bi-eye"></i></a>
+                                <a class="btn btn-primary py-2 px-3" href="#productos"><i class="bi bi-cart"></i></a>
+                                <a class="btn btn-primary py-2 px-3" href="#productos"><i class="bi bi-eye"></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="pb-5">
                         <div class="product-item position-relative bg-light d-flex flex-column text-center">
-                            <img class="img-fluid mb-4" src="./recursos/ali4.jpg" width="300px" height="300px" alt="">
-                            <h6 class="text-uppercase">Quality Pet Foods</h6>
-                            <h5 class="text-primary mb-0">$19900.00</h5>
+                            <img class="img-fluid mb-4" src="./recursos/ali5.jpg" alt="">
+                            <h5 class="text-primary mb-0">$8000.00</h5>
                             <div class="btn-action d-flex justify-content-center">
-                                <a class="btn btn-primary py-2 px-3" href=""><i class="bi bi-cart"></i></a>
-                                <a class="btn btn-primary py-2 px-3" href=""><i class="bi bi-eye"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="pb-5">
-                        <div class="product-item position-relative bg-light d-flex flex-column text-center">
-                            <img class="img-fluid mb-4" src="./recursos/ali5.jpg" width="300px" height="300px" alt="">
-                            <h6 class="text-uppercase">Quality Pet Foods</h6>
-                            <h5 class="text-primary mb-0">$19900.00</h5>
-                            <div class="btn-action d-flex justify-content-center">
-                                <a class="btn btn-primary py-2 px-3" href=""><i class="bi bi-cart"></i></a>
-                                <a class="btn btn-primary py-2 px-3" href=""><i class="bi bi-eye"></i></a>
+                                <a class="btn btn-primary py-2 px-3" href="#productos"><i class="bi bi-cart"></i></a>
+                                <a class="btn btn-primary py-2 px-3" href="#productos"><i class="bi bi-eye"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+            <hr>
+        </article>
         <!-- Products End -->
         <!-- SECCION TESTIMONIOS -->
-        <div class="container border-start border-5 border-primary ps-5 mb-5">
-            <h1 class="display-5 text-uppercase mb-0">TESTIMONIOS</h1>
-        </div>
-        <article class="container testimonio-bg my-5 p-0 py-5 shadow">
-            <!-- ESTADISTICAS -->
-            <section class="">
-                <div class=" d-flex flex-column flex-md-row justify-content-around my-4">
-                    <div class="text-center animate__animated animate__backInLeft wow ">
-                        <img src="../recursos/Grupo-598.svg" alt="">
-                        <div class="d-flex flex-column align-items-center">
-                            <p id="huella1" class="text-huella"> 3000 </p>
-                            <p class="h2-color">Pacientes Contentos</p>
+        <div id="testimonio" class="container">
+            <div class="border-start border-5 border-primary ps-5 mb-5">
+                <h1 class="display-5 text-uppercase mb-0">TESTIMONIOS</h1>
+            </div>
+            <article class="testimonio-bg my-5 p-0 py-5 card-border shadow">
+                <!-- ESTADISTICAS -->
+                <section class="">
+                    <div class=" d-flex flex-column flex-md-row justify-content-around my-4">
+                        <div class="text-center animate__animated animate__backInLeft wow ">
+                            <img src="../recursos/Grupo-598.svg" alt="">
+                            <div class="d-flex flex-column align-items-center">
+                                <p id="huella1" class="text-huella"> 3000 </p>
+                                <p class="h2-color">Pacientes Contentos</p>
+                            </div>
+                        </div>
+                        <div class="text-center animate__animated animate__backInUp wow">
+                            <img src="../recursos/Grupo-598.svg" alt="">
+                            <div class="d-flex flex-column align-items-center">
+                                <p id="huella2" class="text-huella"> 2500 </p>
+                                <p class="h2-color">Cirugías exitosas</p>
+                            </div>
+                        </div>
+                        <div class="text-center animate__animated animate__backInLeft wow">
+                            <img src="../recursos/Grupo-598.svg" alt="">
+                            <div class="d-flex flex-column align-items-center">
+                                <p id="huella3" class="text-huella"> 3 </p>
+                                <p class="h2-color">Años de Trayectoria</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="text-center animate__animated animate__backInUp wow">
-                        <img src="../recursos/Grupo-598.svg" alt="">
-                        <div class="d-flex flex-column align-items-center">
-                            <p id="huella2" class="text-huella"> 2500 </p>
-                            <p class="h2-color">Cirugías exitosas</p>
+                </section>
+                <!-- CAROUSEL DE COMENTARIOS -->
+                <div class="p-0 py-5">
+                    <div class="owl-carousel testimonial-carousel">
+                        <div class="bg-white mx-3 p-4 card-borderpx card-border testimonio-card">
+                            <div class="d-flex flex-column">
+                                <div class="d-flex align-items-center">
+                                    <img class="img-fluid" src="../recursos/3237472.png"
+                                        style="width: 80px; height: 80px;" alt="">
+                                    <div class="m-3"></div>
+                                    <div class="">
+                                        <h5>Rosana Correa</h5>
+                                        <div class="d-flex testimonio-star">
+                                            <img src="../recursos/estrella.svg" alt="">
+                                            <img src="../recursos/estrella.svg" alt="">
+                                            <img src="../recursos/estrella.svg" alt="">
+                                            <img src="../recursos/estrella.svg" alt="">
+                                            <img src="../recursos/estrella.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="m-3"> El servicio aquí es muy bueno. Los veterinarios y la enfermera
+                                    veterinaria
+                                    son
+                                    súper amables y
+                                    están listos para ayudar.
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="text-center animate__animated animate__backInLeft wow">
-                        <img src="../recursos/Grupo-598.svg" alt="">
-                        <div class="d-flex flex-column align-items-center">
-                            <p id="huella3" class="text-huella"> 3 </p>
-                            <p class="h2-color">Años de Trayectoria</p>
+                        <div class="bg-white mx-3 p-4 card-borderpx card-border testimonio-card">
+                            <div class="d-flex flex-column">
+                                <div class="d-flex align-items-center">
+                                    <img class="img-fluid" src="../recursos/3237472.png"
+                                        style="width: 80px; height: 80px;" alt="">
+                                    <div class="m-3"></div>
+                                    <div class="">
+                                        <h5>Rocio B. Casimiro</h5>
+                                        <div class="d-flex testimonio-star">
+                                            <img src="../recursos/estrella.svg" alt="">
+                                            <img src="../recursos/estrella.svg" alt="">
+                                            <img src="../recursos/estrella.svg" alt="">
+                                            <img src="../recursos/estrella.svg" alt="">
+                                            <img src="../recursos/estrella.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="m-3"> Todos muy profesionales, se nota el amor por los animales y siempre dan
+                                    lo
+                                    mejor
+                                    de sí, los
+                                    recomiendo totalmente.</p>
+                            </div>
                         </div>
-                    </div>
-                </div>
-            </section>
-            <!-- CAROUSEL DE COMENTARIOS -->
-            <div class="container p-0 py-5">
-                <div class="owl-carousel testimonial-carousel">
-                    <div class="bg-white mx-3 p-4 card-borderpx card-border testimonio-card">
-                        <div class="d-flex flex-column">
+                        <div class="bg-white mx-3 p-4 card-borderpx card-border testimonio-card">
                             <div class="d-flex align-items-center">
                                 <img class="img-fluid" src="../recursos/3237472.png" style="width: 80px; height: 80px;"
                                     alt="">
                                 <div class="m-3"></div>
                                 <div class="">
-                                    <h5>Rosana Correa</h5>
+                                    <h5>Patricio Sosa</h5>
                                     <div class="d-flex testimonio-star">
                                         <img src="../recursos/estrella.svg" alt="">
                                         <img src="../recursos/estrella.svg" alt="">
@@ -351,21 +379,36 @@
                                     </div>
                                 </div>
                             </div>
-                            <p class="m-3"> El servicio aquí es muy bueno. Los veterinarios y la enfermera veterinaria
-                                son
-                                súper amables y
-                                están listos para ayudar.
+                            <p class="m-3">Profesionalismo, excelente atención. Clínica veterinaria de primer nivel con
+                                excelentes médicos
+                                veterinarios.</p>
+                        </div>
+                        <div class="bg-white mx-3 p-4 card-borderpx card-border testimonio-card">
+                            <div class="d-flex align-items-center">
+                                <img class="img-fluid" src="../recursos/3237472.png" style="width: 80px; height: 80px;"
+                                    alt="">
+                                <div class="m-3"></div>
+                                <div class="">
+                                    <h5>Augusto Flores</h5>
+                                    <div class="d-flex testimonio-star">
+                                        <img src="../recursos/estrella.svg" alt="">
+                                        <img src="../recursos/estrella.svg" alt="">
+                                        <img src="../recursos/estrella.svg" alt="">
+                                        <img src="../recursos/estrella.svg" alt="">
+                                        <img src="../recursos/estrella.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="m-3">Excelente servicio, atención, dedicación y calidad humana! Gran profesional.
                             </p>
                         </div>
-                    </div>
-                    <div class="bg-white mx-3 p-4 card-borderpx card-border testimonio-card">
-                        <div class="d-flex flex-column">
+                        <div class="bg-white mx-3 p-4 card-borderpx card-border testimonio-card">
                             <div class="d-flex align-items-center">
                                 <img class="img-fluid" src="../recursos/3237472.png" style="width: 80px; height: 80px;"
                                     alt="">
                                 <div class="m-3"></div>
                                 <div class="">
-                                    <h5>Rocio B. Casimiro</h5>
+                                    <h5>Diego Vera</h5>
                                     <div class="d-flex testimonio-star">
                                         <img src="../recursos/estrella.svg" alt="">
                                         <img src="../recursos/estrella.svg" alt="">
@@ -375,83 +418,25 @@
                                     </div>
                                 </div>
                             </div>
-                            <p class="m-3"> Todos muy profesionales, se nota el amor por los animales y siempre dan lo
-                                mejor
-                                de sí, los
-                                recomiendo totalmente.</p>
+                            <p class="m-3">Doctores y personal super atentos. Expertos y rápidos.</p>
                         </div>
-                    </div>
-                    <div class="bg-white mx-3 p-4 card-borderpx card-border testimonio-card">
-                        <div class="d-flex align-items-center">
-                            <img class="img-fluid" src="../recursos/3237472.png" style="width: 80px; height: 80px;"
-                                alt="">
-                            <div class="m-3"></div>
-                            <div class="">
-                                <h5>Patricio Sosa</h5>
-                                <div class="d-flex testimonio-star">
-                                    <img src="../recursos/estrella.svg" alt="">
-                                    <img src="../recursos/estrella.svg" alt="">
-                                    <img src="../recursos/estrella.svg" alt="">
-                                    <img src="../recursos/estrella.svg" alt="">
-                                    <img src="../recursos/estrella.svg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <p class="m-3">Profesionalismo, excelente atención. Clínica veterinaria de primer nivel con
-                            excelentes médicos
-                            veterinarios.</p>
-                    </div>
-                    <div class="bg-white mx-3 p-4 card-borderpx card-border testimonio-card">
-                        <div class="d-flex align-items-center">
-                            <img class="img-fluid" src="../recursos/3237472.png" style="width: 80px; height: 80px;"
-                                alt="">
-                            <div class="m-3"></div>
-                            <div class="">
-                                <h5>Augusto Flores</h5>
-                                <div class="d-flex testimonio-star">
-                                    <img src="../recursos/estrella.svg" alt="">
-                                    <img src="../recursos/estrella.svg" alt="">
-                                    <img src="../recursos/estrella.svg" alt="">
-                                    <img src="../recursos/estrella.svg" alt="">
-                                    <img src="../recursos/estrella.svg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <p class="m-3">Excelente servicio, atención, dedicación y calidad humana! Gran profesional.</p>
-                    </div>
-                    <div class="bg-white mx-3 p-4 card-borderpx card-border testimonio-card">
-                        <div class="d-flex align-items-center">
-                            <img class="img-fluid" src="../recursos/3237472.png" style="width: 80px; height: 80px;"
-                                alt="">
-                            <div class="m-3"></div>
-                            <div class="">
-                                <h5>Diego Vera</h5>
-                                <div class="d-flex testimonio-star">
-                                    <img src="../recursos/estrella.svg" alt="">
-                                    <img src="../recursos/estrella.svg" alt="">
-                                    <img src="../recursos/estrella.svg" alt="">
-                                    <img src="../recursos/estrella.svg" alt="">
-                                    <img src="../recursos/estrella.svg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <p class="m-3">Doctores y personal super atentos. Expertos y rápidos.</p>
-                    </div>
 
+                    </div>
                 </div>
-            </div>
-            <div class="container">
-                <div class="d-flex justify-content-center animate__animated animate__backInLeft wow fadeInUp"
-                    data-wow-delay="0.5s">
-                    <a class="btn btn-success boton-reservar fs-1" href="./secciones/sucursales.html#turnos"
-                        role="button">Dejanos tu opinión</a>
+                <div class="container">
+                    <div class="d-flex justify-content-center animate__animated animate__backInLeft wow fadeInUp"
+                        data-wow-delay="0.5s">
+                        <a class="btn btn-success boton-reservar fs-1" href="#testimonio" role="button">Dejanos tu
+                            opinión</a>
+                    </div>
                 </div>
+            </article>
+            <!-- UP -->
+            <div class="cm-up" id="cm-up">
+                <img src="./recursos/flecha.svg" width="30px" height="30px" alt="">
             </div>
-        </article>
-        <!-- UP -->
-        <div class="cm-up" id="cm-up">
-            <img src="./recursos/flecha.svg" width="30px" height="30px" alt="">
         </div>
+
     </main>
     <!-- Footer -->
     <footer class="footer">
@@ -515,7 +500,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="./js/up.js"></script>
     <script src="./js/main.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script>
         // Espera a que el documento se cargue completamente
         $(document).ready(function () {

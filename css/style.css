@@ -33,7 +33,6 @@
 }
 .boton-reservar {
   text-align: center;
-  width: max-content !important;
 }
 .negrita-font:hover {
   font-weight: bolder;
@@ -91,7 +90,7 @@
 
 /* Testimonios */
 .testimonio-bg {
-  background-color:#bad3fc  ;
+  background-color: #bad3fc;
 }
 
 .testimonio-card {
@@ -148,7 +147,7 @@
 .cm-up {
   display: none;
   position: fixed;
-  background: #EFF5FF;
+  background: #eff5ff;
   padding: 10px;
   bottom: 80px;
   right: 10px;
@@ -239,13 +238,7 @@
 }
 
 .bg-custom-light {
-  background-color:#bad3fc ;
-}
-
-.fondo-form {
-  background-image: url("../recursos/fondo-form.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #bad3fc;
 }
 
 @media only screen and (max-width: 768px) {
@@ -309,7 +302,7 @@
   .nuestra-parte-img {
     height: 220px;
     width: 90%;
-    margin:auto
+    margin: auto;
   }
 
   .margin-fix {

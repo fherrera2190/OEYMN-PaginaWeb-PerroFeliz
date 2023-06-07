@@ -395,19 +395,19 @@
 }
 
 .ih-item.circle.effect3.right_to_left .info {
-  -webkit-transform: translateX(100%);
-  -moz-transform: translateX(100%);
-  -ms-transform: translateX(100%);
-  -o-transform: translateX(100%);
-  transform: translateX(100%);
+  -webkit-transform: translateX(-100%);
+  -moz-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  -o-transform: translateX(-100%);
+  transform: translateX(-100%);
 }
 
 .ih-item.circle.effect3.right_to_left a:hover .img {
-  -webkit-transform: scale(0.5) translateX(-100%);
-  -moz-transform: scale(0.5) translateX(-100%);
-  -ms-transform: scale(0.5) translateX(-100%);
-  -o-transform: scale(0.5) translateX(-100%);
-  transform: scale(0.5) translateX(-100%);
+  -webkit-transform: scale(0.5) translateX(100%);
+  -moz-transform: scale(0.5) translateX(100%);
+  -ms-transform: scale(0.5) translateX(100%);
+  -o-transform: scale(0.5) translateX(100%);
+  transform: scale(0.5) translateX(100%);
 }
 
 .ih-item.circle.effect3.right_to_left a:hover .info {

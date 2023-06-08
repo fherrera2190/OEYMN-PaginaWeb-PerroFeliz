@@ -96,10 +96,20 @@
     <main class="">
         <!-- ATENCION MEDICA -->
         <div class="container">
-            <div class="border-start border-5 border-primary mt-5 d-flex justify-content-between align-items-center">
-                <h2 class="h1-color text-center ps-5">Atención Médica</h2>
+            <div class="d-flex flex-column flex-lg-row justify-content-between align-items-center">
+                <div class="border-start border-5 border-primary">
+                    <h2 class="h1-color text-center ps-5">Atención Médica</h2>
+
+                </div>
+                <div class="d-flex justify-content-center align-items-centeranimate__animated animate__backInLeft wow fadeInUp m-5"
+                    data-wow-delay="0.5s">
+
+                    <a class="btn btn-success boton-reservar fs-1" href="../secciones/sucursales.html#turnos"
+                        role="button">Reservar Turno</a>
+                </div>
             </div>
-            <article class="d-flex flex-column  align-items-center justify-content-around flex-lg-row mt-5">
+
+            <article class="d-flex flex-column  align-items-center justify-content-around flex-lg-row mt-3">
                 <div id="vacunacion" class="ih-item circle effect15 left_to_right"><a href="#vacunacion">
                         <div class="img img-servicio "><img src="../recursos/vacunacion.jpg" alt="img"></div>
                         <div class="info">
@@ -121,7 +131,7 @@
                         </div>
                     </a>
                 </div>
-                <div id="diagnostico" class="ih-item circle effect15 left_to_right mt-5"><a href="#diagnostico">
+                <div id="diagnostico" class="ih-item circle effect15 left_to_right mt-3"><a href="#diagnostico">
                         <div class="img img-servicio "><img src="../recursos/dianostico.jpg" alt="img"></div>
                         <div class="info">
                             <h3>Diagnóstico</h3>
@@ -141,13 +151,8 @@
                     </a>
                 </div>
             </article>
-            <div class="d-flex justify-content-center animate__animated animate__backInLeft wow fadeInUp mt-5"
-                data-wow-delay="0.5s">
 
-                <a class="btn btn-success boton-reservar fs-1" href="../secciones/sucursales.html#turnos"
-                    role="button">Reservar Turno</a>
-            </div>
-            <article class="d-flex flex-column  align-items-center justify-content-around flex-lg-row mt-5">
+            <article class="d-flex flex-column  align-items-center justify-content-around flex-lg-row mt-3">
                 <div id="prescripcion" class="ih-item circle effect15 left_to_right"><a href="#prescripcion">
                         <div class="img img-servicio "><img src="../recursos/prescripcion.jpg" alt="img"></div>
                         <div class="info">
@@ -170,7 +175,7 @@
                         </div>
                     </a>
                 </div>
-                <div id="cirugia" class="ih-item circle effect15 left_to_right mt-5"><a href="#cirugia">
+                <div id="cirugia" class="ih-item circle effect15 left_to_right mt-3"><a href="#cirugia">
                         <div class="img img-servicio "><img src="../recursos/cirugia.jpg" alt="img"></div>
                         <div class="info">
                             <h3>Cirugía</h3>
@@ -203,7 +208,7 @@
             <div class="container">
                 <div class="border-start border-5 border-primary ps-5 mb-5" style="max-width: 600px;">
                     <h6 class="text-primary text-uppercase">Suscripción</h6>
-                    <h1 class="display-5 text-uppercase mb-0">
+                    <h1 class="display-6 text-uppercase mb-0">
                         Planes de servicios para mascotas</h1>
                 </div>
                 <div class="row g-5">
@@ -307,7 +312,78 @@
             </div>
             <hr>
         </div>
-        <!-- Pricing Plan End -->
+        <div class="container border-start border-5 border-primary ps-5 mb-5">
+            <h1 class="display-6 text-uppercase mb-0">
+                Consejos de nuestros profesionales:
+            </h1>
+        </div>
+        <div class="container accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button ps-4 fs-3" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Vacunación en cachorros
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body fs-5">
+                        Las primeras vacunas y desparasitación de un cachorro son cruciales para protegerlo contra
+                        enfermedades infecciosas.
+                        El riesgo de muerte en cachorros no vacunados por parvovirus y moquillo canino es alto.
+                        Es importante seguir las pautas de vacunación recomendadas por los veterinarios y
+                        administrar las vacunas en el momento adecuado
+
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed ps-4 fs-3" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Alimentación en perros adultos
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body fs-5">
+                        Cuando los perros envejecen, es importante ajustar su alimentación proporcionando una dieta
+                        equilibrada y nutritiva que se adapte a su edad y estado de salud. Consulta con tu veterinario
+                        antes de hacer cambios en la alimentación de tu perro mayor.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed ps-3 fs-3" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        ¿A qué edad puedo castrar a mi perro?
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body fs-5">
+                        La edad recomendada para la castración de perros puede variar según la raza, el tamaño y la
+                        salud del perro. Sin embargo, en general, se recomienda castrar a los perros antes de que
+                        alcancen la madurez sexual, que suele ser entre los 6 y los 12 meses de edad.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed ps-3 fs-3" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapseThree">
+                        ¿ Alimentos que debes evitar?
+                    </button>
+                </h2>
+                <div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body fs-5">
+                        Muchos de los alimentos que consumimos pueden ser fatales para nuestros perros.
+                        Alimentos como el chocolate, café, uvas, cebollas, ajos, productos lácteos; pueden causar
+                        vómito, diarrea, ritmo cardíaco acelerado e incluso convulsiones. Siempre es recomendable
+                        consultar con tu veterinario
+
+                    </div>
+                </div>
+            </div>
+        </div>
         <!-- UP -->
         <div class="cm-up" id="cm-up">
             <img src="../recursos/flecha.svg" width="30px" height="30px" alt="">

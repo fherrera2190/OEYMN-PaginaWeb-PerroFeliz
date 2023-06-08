@@ -92,12 +92,20 @@
     </header>
     <!-- Main -->
     <main>
-        <div
-            class="container border-start border-5 border-primary mt-5 d-flex justify-content-between align-items-center">
-            <h2 class="h1-color text-center ps-5">Estética Canina</h2>
+        <div class="container d-flex flex-column flex-lg-row justify-content-between align-items-center">
+            <div class="border-start border-5 border-primary">
+                <h2 class="h1-color text-center ps-5">Estética Canina</h2>
+
+            </div>
+            <div class="d-flex justify-content-center align-items-centeranimate__animated animate__backInLeft wow fadeInUp m-5"
+                data-wow-delay="0.5s">
+
+                <a class="btn btn-success boton-reservar fs-1" href="../secciones/sucursales.html#turnos"
+                    role="button">Reservar Turno</a>
+            </div>
         </div>
         <article class="container">
-            <div class="d-flex flex-column flex-md-row m-5 align-items-center">
+            <div class="d-flex flex-column flex-md-row my-5 align-items-center">
                 <div class="w-100">
                     <div id="carouselExample" class="carousel slide">
                         <div class="carousel-inner">
@@ -126,9 +134,9 @@
                         </button>
                     </div>
                 </div>
-                <div class="m-4"></div>
+                <div class="m-5"></div>
                 <div class="w-100">
-                    <h2 class="h2-color fs-2 text-center my-3 w-75">Acicalamiento automatizado</h2>
+                    <h2 class="h2-color fs-2 text-center my-5 w-75">Acicalamiento automatizado</h2>
                     <p class="just-text w-100 fs-4">
                         <span class="text-primary">
                             Nuestro acicalamiento más popular es el baño y tratamiento contra pulgas usando nuestro
@@ -146,6 +154,47 @@
             <div class="border-start border-5 border-primary ps-5 my-5">
                 <h1 class="display-5 text-uppercase mb-0">Servicios Personalizados</h1>
             </div>
+            <article class="container d-flex flex-column align-items-center mt-5">
+                <p class="fs-4">
+                    <span class="text-primary fs-2">También contamos con un barniz protector patentado:</span>Con este
+                    se
+                    pintan los dientes del perro para cubrir decoloraciones desagradables. Nuestro barniz se disuelve
+                    lentamente durante 6 meses liberando un refrescante de aliento no tóxico. El cual, a pesar de
+                    oler a menta, para su mascota sabe a alimento balanceado. Con esto, su mascota contará con dientes
+                    blancos y buen aliento.
+                </p>
+                <div class="w-100 d-flex justify-content-around">
+                    <div class="mt-5">
+                        <div class="text-center my-4 h2-color">
+                            <h3>ANTES</h3>
+                        </div>
+                        <!-- colored -->
+                        <div class="ih-item circle colored effect3 right_to_left"><a href="#">
+                                <div class="img img-servicio"><img src="../recursos/antes.png" alt="img"></div>
+
+                            </a>
+                        </div>
+
+                        <!-- end colored -->
+                    </div>
+
+                    <div class="mt-5">
+                        <!-- colored -->
+                        <div class="text-center my-4 h2-color">
+                            <h3>DESPUES</h3>
+                        </div>
+                        <div class="ih-item circle colored"><a href="#">
+                                <div class="img img-servicio"><img src="../recursos/despues.png" alt="img"></div>
+                            </a>
+
+                        </div>
+
+                        <!-- end colored -->
+                    </div>
+
+                </div>
+                <hr>
+            </article>
             <div class="row row-cols-1 row-cols-md-2 ">
                 <div class="d-flex flex-column justify-content-center align-items-center">
                     <h2 class="h2-color text-center my-4">Teñido</h2>
@@ -158,14 +207,6 @@
                 </div>
 
             </div>
-
-            <div class="d-flex justify-content-center animate__animated animate__backInLeft wow fadeInUp m-5"
-                data-wow-delay="0.5s">
-
-                <a class="btn btn-success boton-reservar fs-1" href="../secciones/sucursales.html#turnos"
-                    role="button">Reservar Turno</a>
-            </div>
-
             <div class="row row-cols-1 row-cols-md-2 ">
                 <div class="d-flex flex-column justify-content-center align-items-center">
                     <h2 class="h2-color text-center my-4">Peluquería</h2>
@@ -179,44 +220,7 @@
             </div>
             <hr>
         </article>
-        <article class="container d-flex flex-column align-items-center mt-5">
-            <p class="fs-4">
-                <span class="text-primary fs-2">También contamos con un barniz protector patentado:</span>Con este se
-                pintan los dientes del perro para cubrir decoloraciones desagradables. Nuestro barniz se disuelve
-                lentamente durante 6 meses liberando un refrescante de aliento no tóxico. El cual, a pesar de
-                oler a menta, para su mascota sabe a alimento balanceado. Con esto, su mascota contará con dientes
-                blancos y buen aliento.
-            </p>
-            <div class="w-100 d-flex justify-content-around">
-                <div class="mt-5">
-                    <!-- colored -->
-                    <div class="ih-item circle colored effect3 right_to_left"><a href="#">
-                            <div class="img img-servicio"><img src="../recursos/antes.png" alt="img"></div>
 
-                        </a>
-                    </div>
-                    <div class="text-center mt-5 h2-color">
-                        <h3>ANTES</h3>
-                    </div>
-                    <!-- end colored -->
-                </div>
-
-                <div class="mt-5">
-                    <!-- colored -->
-                    <div class="ih-item circle colored"><a href="#">
-                            <div class="img img-servicio"><img src="../recursos/despues.png" alt="img"></div>
-                        </a>
-
-                    </div>
-                    <div class="text-center mt-5 h2-color">
-                        <h3>DESPUES</h3>
-                    </div>
-                    <!-- end colored -->
-                </div>
-
-            </div>
-            <hr>
-        </article>
     </main>
     <!-- Footer -->
     <footer class="footer">

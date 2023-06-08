@@ -18,22 +18,27 @@
 .banner {
   min-height: 78vh;
 }
+
 .fuerte {
   height: 20px !important;
   width: 20px !important;
   color: #fff;
 }
+
 .fuerte {
   height: 20px !important;
   width: 20px !important;
   color: #fff;
 }
+
 .fuerte2 {
   text-align: left;
 }
+
 .boton-reservar {
   text-align: center;
 }
+
 .negrita-font:hover {
   font-weight: bolder;
 }
@@ -43,11 +48,7 @@
 }
 
 .nuestra-parte-img {
-  height: 500px;
-}
-
-.nuestra-parte-section2 {
-  min-height: 40vh;
+  height: 450px;
 }
 
 .navbar-collapse {
@@ -65,7 +66,7 @@
   top: -7px;
 }
 
-.dropdown-menu > li:hover > .submenu {
+.dropdown-menu>li:hover>.submenu {
   display: block;
 }
 

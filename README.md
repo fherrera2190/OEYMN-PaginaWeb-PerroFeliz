@@ -1,10 +1,12 @@
-# Página Web Veterinaria
+# Perro Feliz
 
 ![Logo de la Veterinaria](https://fherrera2190.github.io/OEYMN-PaginaWeb-PerroFeliz/recursos/Logo-06.png)
 
 ## Descripción
 
-Bienvenido a nuestra Página Web Veterinaria, diseñada para proporcionar información completa y actualizada sobre nuestros servicios veterinarios. Aquí puedes encontrar información sobre nuestros veterinarios, los servicios que ofrecemos, y cómo puedes contactarnos para hacer una cita o para obtener más información sobre el cuidado de tus mascotas.
+Bienvenido a **Perro Feliz**, nuestra Página Web Veterinaria, diseñada para proporcionar información completa y actualizada sobre nuestros servicios veterinarios. Aquí puedes encontrar información sobre nuestros veterinarios, los servicios que ofrecemos, y cómo puedes contactarnos para hacer una cita o para obtener más información sobre el cuidado de tus mascotas.
+
+**Nota:** Esta página web fue creada únicamente como parte de una materia de la universidad y no representa una clínica veterinaria real.
 
 ## Funcionalidades
 
@@ -40,8 +42,8 @@ Este proyecto está bajo la Licencia MIT. Puedes ver más detalles en el archivo
 
 ## Contacto
 
-Si tienes alguna pregunta o sugerencia, no dudes en contactarnos a través de [correo@example.com](mailto:correo@example.com).
+Si tienes alguna pregunta o sugerencia, no dudes en contactarnos a través de [perrofeliz@example.com](mailto:perrofeliz@example.com).
 
 ---
 
-¡Gracias por visitar nuestra página web veterinaria! Esperamos poder ayudarte con el cuidado de tus mascotas.
+¡Gracias por visitar **Perro Feliz**! Esperamos poder ayudarte con el cuidado de tus mascotas.
